@@ -18,15 +18,16 @@ After the data bits are finished, the stop bit indicates the end of user data. T
 ![UART-Packet](https://user-images.githubusercontent.com/110913003/228015690-086d9928-ff8d-4e99-b1ed-a75dba1f6291.png)
 
 
-In this repo i implemented the UART using **system verilog**
+
+### In this repo i implemented the UART using **system verilog**
 
 
 ![2023-03-26_222119](https://user-images.githubusercontent.com/110913003/228015964-124af970-1049-4838-beea-bcf35cd02f59.png)
 
 
-**The design consists of 4 main blocks:
+### The design consists of 4 main blocks:
 
-**1. **Transmitter
-**2. **Receiver
-**3. **Buad rate generator
-**4. **FIFO memory
+1. Transmitter
+2. Receiver
+3. Buad rate generator
+4. FIFO memory 
