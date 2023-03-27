@@ -1,6 +1,6 @@
 ## UART implementation using system verilog
 
-UART stands for universal asynchronous receiver / transmitter and defines a protocol, or set of rules, for exchanging serial data between two devices. UART is very simple and only uses two wires between transmitter and receiver to transmit and receive in both directions. Both ends also have a ground connection. Communication in UART can be simplex (data is sent in one direction only), half-duplex (each side speaks but only one at a time), or full-duplex (both sides can transmit simultaneously). Data in UART is transmitted in the form of frames.
+**UART** stands for universal asynchronous receiver / transmitter and defines a protocol, or set of rules, for exchanging serial data between two devices. UART is very simple and only uses two wires between transmitter and receiver to transmit and receive in both directions. Both ends also have a ground connection. Communication in UART can be simplex (data is sent in one direction only), half-duplex (each side speaks but only one at a time), or full-duplex (both sides can transmit simultaneously). Data in UART is transmitted in the form of frames.
 
 ![UART-BUS-between-two-devices](https://user-images.githubusercontent.com/110913003/228015604-ed3caf31-eb26-4deb-af11-e65b192e56c2.jpg)
 
@@ -18,15 +18,15 @@ After the data bits are finished, the stop bit indicates the end of user data. T
 ![UART-Packet](https://user-images.githubusercontent.com/110913003/228015690-086d9928-ff8d-4e99-b1ed-a75dba1f6291.png)
 
 
-In this repo we implement the UART using system verilog
+In this repo i implemented the UART using system verilog
 
 
 ![2023-03-26_222119](https://user-images.githubusercontent.com/110913003/228015964-124af970-1049-4838-beea-bcf35cd02f59.png)
 
 
-The design consists of 4 main blocks:
+**The design consists of 4 main blocks:
 
 1. Transmitter
 2. Receiver
 3. Buad rate generator
-4. FIFO memory
+4. FIFO memory**
