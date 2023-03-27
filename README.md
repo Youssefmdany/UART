@@ -26,7 +26,7 @@ In this repo we implement the UART using system verilog
 
 The design consists of 4 main blocks:
 
-1.Transmitter
-2.Receiver
-3.Buad rate generator
-4.FIFO memory
+1. Transmitter
+2. Receiver
+3. Buad rate generator
+4. FIFO memory
