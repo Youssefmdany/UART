@@ -26,10 +26,10 @@ module UART_RX #(
        )
 		 
 		 (
-        input rx,
+                  
+	          input rx,
 		  input clk,Reset,
 		  input s_ticks,
-		  
 		  output logic rx_done_tick,
 		  output[Data_bits-2:0] data_out,
 		  output logic incorrect_send // if it equals logic one the data is correct ,if it equal to zero there is an error in the data that was received
