@@ -27,11 +27,10 @@ module UART_TX #(
 		
 		(
 
-       input clk,Reset,
+                 input clk,Reset,
 		 input[Data_bits-2:0] data_in,
 		 input tx_start,
 		 input s_ticks,
-		 
 		 output logic tx_done_tick,
 		 output logic parity_check,
 		 output logic tx
