@@ -19,15 +19,15 @@
 
 module UART #( 
                
-				  parameter Data_bits=9,
+			parameter Data_bits=9,
 		        parameter Sp_ticks=16, 
 		        parameter St_ticks=8,  
 		        parameter Dt_ticks=16,
-				  parameter addr_width=5,
-				  parameter divsr_width=10,
-	           parameter Read=2'b01,
-	           parameter Write=2'b10,
-	           parameter Read_and_Write=2'b11
+			parameter addr_width=5,
+			parameter divsr_width=10,
+	                parameter Read=2'b01,
+	                parameter Write=2'b10,
+	                parameter Read_and_Write=2'b11
 				  
              )
 				 
