@@ -18,10 +18,11 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
-module UART_RX #( parameter Data_bits=9,
-                  parameter Sp_ticks=16,//Stop_bit_ticks
-						parameter St_ticks=8,//Start_bit_ticks
-						parameter Dt_ticks=16//data ticks for received one data bit
+module UART_RX #(            
+	               parameter Data_bits=9,
+                       parameter Sp_ticks=16,//Stop_bit_ticks
+		       parameter St_ticks=8,//Start_bit_ticks
+		       parameter Dt_ticks=16//data ticks for received one data bit
        )
 		 
 		 (
