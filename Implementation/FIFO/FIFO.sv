@@ -19,11 +19,12 @@
 
 module FIFO #(
 
-         parameter addr_width=5,
-         parameter Data_bits=9,
+              parameter addr_width=5,
+              parameter Data_bits=9,
 	      parameter Read=2'b01,
 	      parameter Write=2'b10,
 	      parameter Read_and_Write=2'b11
+					
             )
 				(
 				
@@ -55,7 +56,7 @@ FIFO_Contr #( .addr_width(addr_width), .Read(Read), .Write(Write), .Read_and_Wri
 
          controller
 			
-               ( .clk(clk),
+	(                               .clk(clk),
 					.Reset(Reset) ,
 					.wr(wr),
 					.rd(rd) ,
@@ -74,7 +75,7 @@ Regsiter_file #(.addr_width(addr_width), .Data_bits(Data_bits))
 
          reg_file
 			
-             (.clk(clk),
+	(                        .clk(clk),
 				 .w_en(w_en) ,
 				 .w_data(w_data),
 				 .w_addr(w_addr),
